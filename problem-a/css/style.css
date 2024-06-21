@@ -1,0 +1,36 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.content {
+    background-color: skyblue;
+    color: red;
+}
+
+.content h1 {
+    background-color: pink;
+    padding: 10px 10px;
+}
+
+ul {
+    display: flex;
+}
+
+li p {
+    display: inline;
+    line-height: 1.5;
+}
+
+.inline {
+    /* display: inline; */
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    margin-right: 10px;
+}
+
+img{
+    max-height: 400px;   
+}
